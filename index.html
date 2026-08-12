@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tharun M</title>
+  <meta name="description" content="Tharun M — UI/UX Designer focused on solving real user problems through research, wireframing, and intuitive interface design.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/intro.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    (function(){
+      try {
+        if (sessionStorage.getItem('portfolioIntroSeen') === '1' || (location.hash && location.hash.length > 1)) {
+          document.documentElement.classList.add('skip-intro');
+        }
+      } catch(e) {}
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- Text-only Intro -->
+  <div class="intro-overlay" id="intro-overlay">
+    <button class="intro-skip" id="intro-skip" type="button">Skip</button>
+    <div class="intro-text-wrap">
+      <p class="intro-line hello" id="intro-hello">Hello, I'm Tharun M.</p>
+      <p class="intro-line role" id="intro-role">UI/UX Designer</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo"><span class="logo-text">Tharun<span class="logo-dot">.</span>M</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg"><div class="blob blob-1"></div><div class="blob blob-2"></div><div class="blob blob-3"></div></div>
+    <div class="container hero-container">
+      <div class="hero-content fade-in">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">THARUN M</h1>
+        <div class="hero-role-wrap">
+          <span class="typing-text">UI/UX Designer</span>
+        </div>
+        <p class="hero-desc">UI/UX designer focused on solving real user problems through research, wireframing, and intuitive interface design.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+          <a href="https://drive.google.com/file/d/1nTNwD6B4GKHejid30PToXe7LM54_Em5G/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-outline"><i class="fas fa-file-alt"></i> Resume</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://linkedin.com/in/tharun-m01" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:tharun01012005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+919952846406" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="hero-image fade-in-delay">
+        <div class="image-wrapper glass-frame">
+          <img src="assets/images/profile.png" alt="Tharun M - UI/UX Designer" class="profile-img">
+          <div class="profile-badge badge-top"><span class="dot"></span> Open to Work</div>
+          <div class="profile-badge badge-bottom"><i class="fas fa-palette"></i> UI/UX Designer</div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><a href="#about" aria-label="Scroll down"><div class="mouse"></div></a></div>
+  </section>
+
+  <!-- 2. ABOUT -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Crafting Digital Experiences</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-content">
+          <p class="about-text">Detail-oriented UI/UX Designer with a strong foundation in user-centered design and problem-solving. Skilled in Figma, wireframing, and prototyping, with a focus on creating intuitive and visually engaging digital experiences. Passionate about leveraging design thinking and modern tools to deliver seamless, user-friendly solutions that solve real-world problems.</p>
+          <div class="about-info">
+            <div class="info-item"><i class="fas fa-map-marker-alt"></i><div><span class="info-label">Location</span><span class="info-value">Bhavani, Tamil Nadu, India</span></div></div>
+            <div class="info-item"><i class="fas fa-graduation-cap"></i><div><span class="info-label">Education</span><span class="info-value">B.Tech Information Technology</span></div></div>
+            <div class="info-item"><i class="fas fa-envelope"></i><div><span class="info-label">Email</span><span class="info-value">tharun01012005@gmail.com</span></div></div>
+            <div class="info-item"><i class="fas fa-briefcase"></i><div><span class="info-label">Role</span><span class="info-value">UI/UX Design Intern</span></div></div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card"><div class="stat-icon"><i class="fas fa-mobile-alt"></i></div><h3 class="stat-number" data-count="10">0</h3><p class="stat-label">Screens Designed</p></div>
+          <div class="stat-card"><div class="stat-icon"><i class="fas fa-project-diagram"></i></div><h3 class="stat-number" data-count="3">0</h3><p class="stat-label">Major Projects</p></div>
+          <div class="stat-card"><div class="stat-icon"><i class="fas fa-briefcase"></i></div><h3 class="stat-number" data-count="1">0</h3><p class="stat-label">Internship</p></div>
+          <div class="stat-card"><div class="stat-icon"><i class="fas fa-tools"></i></div><h3 class="stat-number" data-count="8">0</h3><p class="stat-label">Design Tools</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. EXPERIENCE -->
+  <section id="experience" class="experience section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Experience</span>
+        <h2 class="section-title">My Journey</h2>
+      </div>
+      <div class="experience-content">
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="exp-details">
+            <h3>UI/UX Design Intern</h3>
+            <span class="exp-period">SAN Technovation · 2026 – Present</span>
+            <ul class="exp-list">
+              <li>Designing user-centric interfaces and responsive layouts using Figma, ensuring consistency across devices</li>
+              <li>Creating user flows, wireframes, and high-fidelity prototypes for real-world applications</li>
+              <li>Applying UX principles and iterative design improvements to enhance usability and user experience</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-icon"><i class="fas fa-project-diagram"></i></div>
+          <div class="exp-details">
+            <h3>Academic Design Projects</h3>
+            <span class="exp-period">Ongoing</span>
+            <ul class="exp-list">
+              <li>Designed 10+ mobile and web screens across multiple case studies</li>
+              <li>Built interactive prototypes and conducted structured UX research</li>
+              <li>Applied design systems and reusable components for scalable UI</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. EDUCATION -->
+  <section id="education" class="section education-section-full">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+      </div>
+      <div class="timeline timeline-spacious">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2023 – 2026</span>
+            <h4>B.Tech – Information Technology</h4>
+            <p>Kongu Engineering College, Tamil Nadu</p>
+            <span class="timeline-badge">CGPA: 6.58</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2020 – 2023</span>
+            <h4>Diploma in ECE</h4>
+            <p>Kongu Polytechnic College, Tamil Nadu</p>
+            <span class="timeline-badge">Percentage: 89%</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">2019 – 2020</span>
+            <h4>SSLC</h4>
+            <p>Adharsh Vidhyalaya Matric Hr. Sec. School, Tamil Nadu</p>
+            <span class="timeline-badge">Percentage: 72.8%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PROJECTS -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">Selected UI/UX case studies from recent work</p>
+      </div>
+      <div class="projects-grid" id="featured-projects">
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/images/career-connect-ai.png" alt="CareerConnect AI">
+            <div class="project-overlay"><a href="projects/career-connect-ai.html" class="btn btn-primary btn-sm">View Case Study</a></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span class="tag">UI/UX</span><span class="tag">Mobile App</span><span class="tag">AI</span></div>
+            <h3 class="project-title">CareerConnect AI</h3>
+            <p class="project-desc">AI-powered job platform improving job discovery and application tracking through structured user flows and intuitive navigation.</p>
+            <a href="projects/career-connect-ai.html" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-image">
+            <img src="assets/images/house-of-tharagai.png" alt="House of Tharagai">
+            <div class="project-overlay"><a href="projects/house-of-tharagai.html" class="btn btn-primary btn-sm">View Case Study</a></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span class="tag">UI/UX</span><span class="tag">E-commerce</span><span class="tag">Frontend</span></div>
+            <h3 class="project-title">House of Tharagai</h3>
+            <p class="project-desc">Developed the frontend and created the UI design using my own creativity — optimized for product browsing, cart, and checkout.</p>
+            <a href="projects/house-of-tharagai.html" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div class="projects-grid projects-extra" id="all-projects" style="display:none; margin-top:36px;">
+        <article class="project-card">
+          <div class="project-image project-image-placeholder">
+            <div class="placeholder-content"><i class="fas fa-chart-line"></i><span>CRM Dashboard</span></div>
+            <div class="project-overlay"><a href="projects/crm-dashboard.html" class="btn btn-primary btn-sm">View Case Study</a></div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags"><span class="tag">UI/UX</span><span class="tag">Dashboard</span><span class="tag">AI-Assisted</span></div>
+            <h3 class="project-title">CRM Dashboard</h3>
+            <p class="project-desc">Data-driven CRM dashboard built with AI-assisted workflows, focusing on clarity, usability, and efficient interface structuring.</p>
+            <a href="projects/crm-dashboard.html" class="project-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      <div style="text-align:center; margin-top:40px;">
+        <button class="btn btn-outline" id="view-all-projects">View All Projects <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. SKILLS & TOOLS -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Skills & Tools</span>
+        <h2 class="section-title">What I Bring to the Table</h2>
+      </div>
+
+      <div class="skills-categories-grid">
+        <div class="skills-category">
+          <h3 class="category-title"><i class="fas fa-pencil-ruler"></i> UI Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Auto Layout</span>
+            <span class="skill-tag">Design Systems</span>
+            <span class="skill-tag">Reusable Components</span>
+            <span class="skill-tag">Responsive Design</span>
+            <span class="skill-tag">Visual Hierarchy</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3 class="category-title"><i class="fas fa-search"></i> UX Methods</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">User Research</span>
+            <span class="skill-tag">Empathy Mapping</span>
+            <span class="skill-tag">Wireframing</span>
+            <span class="skill-tag">Prototyping</span>
+            <span class="skill-tag">User Flows</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3 class="category-title"><i class="fas fa-user-check"></i> Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Attention to Detail</span>
+            <span class="skill-tag">Continuous Learning</span>
+            <span class="skill-tag">Adaptability</span>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="category-title" style="margin:40px 0 20px;"><i class="fas fa-tools"></i> Tools</h3>
+      <div class="tools-marquee-wrap">
+        <div class="tools-marquee" id="tools-marquee">
+<div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/figma.svg" alt="Figma" width="28" height="28" loading="lazy"></div><span>Figma</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/figjam.svg" alt="FigJam" width="28" height="28" loading="lazy"></div><span>FigJam</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/balsamiq.svg" alt="Balsamiq" width="28" height="28" loading="lazy"></div><span>Balsamiq</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/miro.svg" alt="Miro" width="28" height="28" loading="lazy"></div><span>Miro</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/stitch.svg" alt="Stitch" width="28" height="28" loading="lazy"></div><span>Stitch</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/canva.svg" alt="Canva" width="28" height="28" loading="lazy"></div><span>Canva</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/adobephotoshop.svg" alt="Photoshop" width="28" height="28" loading="lazy"></div><span>Photoshop</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/adobeillustrator.svg" alt="Illustrator" width="28" height="28" loading="lazy"></div><span>Illustrator</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/html5.svg" alt="HTML" width="28" height="28" loading="lazy"></div><span>HTML</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/css3.svg" alt="CSS" width="28" height="28" loading="lazy"></div><span>CSS</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/javascript.svg" alt="JavaScript" width="28" height="28" loading="lazy"></div><span>JavaScript</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/react.svg" alt="React" width="28" height="28" loading="lazy"></div><span>React</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/vite.svg" alt="Vite" width="28" height="28" loading="lazy"></div><span>Vite</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/git.svg" alt="Git" width="28" height="28" loading="lazy"></div><span>Git</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/github.svg" alt="GitHub" width="28" height="28" loading="lazy"></div><span>GitHub</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/visualstudiocode.svg" alt="VS Code" width="28" height="28" loading="lazy"></div><span>VS Code</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/figma.svg" alt="Figma" width="28" height="28" loading="lazy"></div><span>Figma</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/figjam.svg" alt="FigJam" width="28" height="28" loading="lazy"></div><span>FigJam</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/balsamiq.svg" alt="Balsamiq" width="28" height="28" loading="lazy"></div><span>Balsamiq</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/miro.svg" alt="Miro" width="28" height="28" loading="lazy"></div><span>Miro</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/stitch.svg" alt="Stitch" width="28" height="28" loading="lazy"></div><span>Stitch</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/canva.svg" alt="Canva" width="28" height="28" loading="lazy"></div><span>Canva</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/adobephotoshop.svg" alt="Photoshop" width="28" height="28" loading="lazy"></div><span>Photoshop</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/adobeillustrator.svg" alt="Illustrator" width="28" height="28" loading="lazy"></div><span>Illustrator</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/html5.svg" alt="HTML" width="28" height="28" loading="lazy"></div><span>HTML</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/css3.svg" alt="CSS" width="28" height="28" loading="lazy"></div><span>CSS</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/javascript.svg" alt="JavaScript" width="28" height="28" loading="lazy"></div><span>JavaScript</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/react.svg" alt="React" width="28" height="28" loading="lazy"></div><span>React</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/vite.svg" alt="Vite" width="28" height="28" loading="lazy"></div><span>Vite</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/git.svg" alt="Git" width="28" height="28" loading="lazy"></div><span>Git</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/github.svg" alt="GitHub" width="28" height="28" loading="lazy"></div><span>GitHub</span></div><div class="tool-card-marquee"><div class="tool-logo"><img src="assets/icons/visualstudiocode.svg" alt="VS Code" width="28" height="28" loading="lazy"></div><span>VS Code</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. DESIGN THINKING APPROACH -->
+  <section id="design-thinking" class="design-thinking section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Process</span>
+        <h2 class="section-title">My Design Thinking Approach</h2>
+        <p class="dt-intro">Every project starts with people — understanding their goals, frustrations, and context. From there I define the real problem, explore solutions, prototype the experience, and refine through feedback.</p>
+      </div>
+      <div class="dt-grid">
+        <div class="dt-card">
+          <div class="dt-number">01</div>
+          <h4>Empathize</h4>
+          <p>Understand users through research, interviews, and observation</p>
+        </div>
+        <div class="dt-connector-v" aria-hidden="true"></div>
+        <div class="dt-card">
+          <div class="dt-number">02</div>
+          <h4>Define</h4>
+          <p>Frame the core problem and align on clear user goals</p>
+        </div>
+        <div class="dt-connector-v" aria-hidden="true"></div>
+        <div class="dt-card">
+          <div class="dt-number">03</div>
+          <h4>Ideate</h4>
+          <p>Explore solutions, flows, and design directions</p>
+        </div>
+        <div class="dt-connector-v" aria-hidden="true"></div>
+        <div class="dt-card">
+          <div class="dt-number">04</div>
+          <h4>Prototype</h4>
+          <p>Build wireframes and high-fidelity interactive designs</p>
+        </div>
+        <div class="dt-connector-v" aria-hidden="true"></div>
+        <div class="dt-card">
+          <div class="dt-number">05</div>
+          <h4>Test</h4>
+          <p>Validate with users and iterate based on feedback</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's create something meaningful.</h2>
+        <p class="section-desc">Have a project, opportunity, or idea in mind? I'd love to hear about it.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-card"><div class="contact-icon"><i class="fas fa-envelope"></i></div><h4>Email</h4><a href="mailto:tharun01012005@gmail.com">tharun01012005@gmail.com</a></div>
+          <div class="contact-card"><div class="contact-icon"><i class="fab fa-linkedin-in"></i></div><h4>LinkedIn</h4><a href="https://linkedin.com/in/tharun-m01" target="_blank" rel="noopener">linkedin.com/in/tharun-m01</a></div>
+          <div class="contact-card"><div class="contact-icon"><i class="fas fa-phone"></i></div><h4>Phone</h4><a href="tel:+919952846406">+91 99528 46406</a></div>
+          <div class="contact-card"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><h4>Location</h4><p>Bhavani, Tamil Nadu, India</p></div>
+        </div>
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/xqaboaop" method="POST">
+          <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name"></div>
+          <div class="form-group"><label for="email">Email</label><input type="email" id="email" name="email" placeholder="your.email@example.com" required autocomplete="email"></div>
+          <div class="form-group"><label for="subject">Subject</label><input type="text" id="subject" name="subject" placeholder="What's this about?"></div>
+          <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-text">Tharun<span class="logo-dot">.</span>M</span>
+          <p>UI/UX Designer</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://linkedin.com/in/tharun-m01" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:tharun01012005@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2026 Tharun M. All rights reserved.</p></div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+  <script src="js/main.js"></script>
+</body>
+</html>
