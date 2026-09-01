@@ -171,20 +171,6 @@ function typingEffect() {
   type();
 }
 
-/* ===== View All Projects ===== */
-const viewAllBtn = document.getElementById('view-all-projects');
-const allProjects = document.getElementById('all-projects');
-if (viewAllBtn && allProjects) {
-  viewAllBtn.addEventListener('click', () => {
-    const isHidden = allProjects.style.display === 'none' || !allProjects.style.display;
-    allProjects.style.display = isHidden ? 'grid' : 'none';
-    viewAllBtn.innerHTML = isHidden
-      ? 'Show Less <i class="fas fa-arrow-up"></i>'
-      : 'View All Projects <i class="fas fa-arrow-right"></i>';
-    if (isHidden) allProjects.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  });
-}
-
 /* ===== Text-only Intro — session aware ===== */
 (function () {
   const overlay = document.getElementById('intro-overlay');

@@ -5,29 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CareerConnect AI | Tharun M</title>
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/intro.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script>
+    (function(){
+      try {
+        document.documentElement.classList.add('skip-intro');
+      } catch(e) {}
+    })();
+  </script>
 </head>
 <body>
+
+  <!-- Navigation -->
   <nav class="navbar scrolled" id="navbar">
     <div class="container nav-container">
-      <a href="../index.html" class="logo"><span class="logo-text">Tharun<span class="logo-dot">.</span>M</span></a>
+      <a href="../index.html#home" class="logo"><span class="logo-text">Tharun<span class="logo-dot">.</span>M</span></a>
       <ul class="nav-links" id="nav-links">
         <li><a href="../index.html#home" class="nav-link">Home</a></li>
         <li><a href="../index.html#about" class="nav-link">About</a></li>
-        <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
-        <li><a href="../index.html#projects" class="nav-link active">Projects</a></li>
         <li><a href="../index.html#experience" class="nav-link">Experience</a></li>
+        <li><a href="../index.html#education" class="nav-link">Education</a></li>
+        <li><a href="../index.html#projects" class="nav-link active">Projects</a></li>
+        <li><a href="../index.html#skills" class="nav-link">Skills</a></li>
         <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
       </ul>
-      <div class="nav-actions"><button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button></div>
+      <div class="nav-actions">
+        <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
     </div>
   </nav>
 
   <section class="project-hero">
     <div class="container">
       <div class="project-hero-content fade-in">
-        <a href="../index.html#projects" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+        <a href="all-projects.html" class="back-link"><i class="fas fa-arrow-left"></i> Back to Projects</a>
         <div class="project-tags" style="margin-bottom:16px;"><span class="tag">UI/UX</span><span class="tag">Mobile App</span><span class="tag">AI</span></div>
         <h1>CareerConnect AI</h1>
         <p class="project-hero-desc">An AI-powered job platform designed to improve job discovery and application tracking through structured user flows and intuitive navigation.</p>
@@ -65,8 +80,8 @@
       </div>
 
       <div class="project-nav">
-        <a href="../index.html#projects"><i class="fas fa-arrow-left"></i> All Projects</a>
-        <a href="crm-dashboard.html">Next: CRM Dashboard <i class="fas fa-arrow-right"></i></a>
+        <a href="all-projects.html"><i class="fas fa-arrow-left"></i> All Projects</a>
+        <a href="house-of-tharagai.html">Next: House of Tharagai <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </section>

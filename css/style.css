@@ -151,6 +151,32 @@ ul {
   justify-content: center;
 }
 
+.back-to-portfolio-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--text-dark);
+  padding: 14px 24px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.back-to-portfolio-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--primary-bg);
+}
+
+@media (max-width: 640px) {
+  .back-to-portfolio-btn {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+}
+
 /* ===== Navigation ===== */
 .navbar {
   position: fixed;
